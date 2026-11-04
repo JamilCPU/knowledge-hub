@@ -1,6 +1,26 @@
+# secrets and local data
 .env
+.env.*
+!.env.example
+*.keys
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
 __pycache__/
 *.pyc
-.DS_Store
 venv/
 .venv/
+
+# build / editor / OS
+node_modules/
+dist/
+build/
+bin/
+obj/
+.vs/
+.idea/
+*.class
+target/
+.DS_Store
